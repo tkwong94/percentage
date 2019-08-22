@@ -9,7 +9,7 @@
                        v-model="value"
                        v-bind="extraAttributes"
                 />
-                <div class="absolute percentage-shift">%</div>
+                <div class="absolute percentage-shift">111%</div>
             </div>
         </template>
     </default-field>

@@ -2,10 +2,10 @@
     <panel-item :field="field">
         <template slot="value">
             <div v-if="field.value == null">
-                —
+                111—
             </div>
             <div v-else>
-                {{ field.value.toFixed(field.precision) }}%
+                111{{ field.value.toFixed(field.precision) }}%
             </div>
         </template>
     </panel-item>
