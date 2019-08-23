@@ -1,9 +1,10 @@
 <template>
-    <span>111{{ field.value }}%</span>
+  <span v-if="field.value == null">—</span>
+  <span v-else>{{ field.value.toFixed(field.precision) }}%</span>
 </template>
 
 <script>
 export default {
-    props: ['resourceName', 'field'],
-}
+  props: ["resourceName", "field"]
+};
 </script>
